@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 nav {
   display: flex;
@@ -151,6 +152,12 @@ span {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 50px;
+  color: var(--primary-primary, #5048ef);
+  font-family: "Inter Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .forthSection h4 {
   color: blue;
@@ -235,7 +242,7 @@ span {
   color: blue;
 }
 .fallen {
-  background-color: orange;
+  background: var(--primary-sub, #F2A95A);
   color: #fff;
   display: flex;
   justify-content: space-around;
@@ -270,7 +277,6 @@ span {
   display: flex;
   justify-content: space-around;
   padding-top: 2rem;
-  padding-bottom: 6rem;
 }
 .faq h4 {
   padding-bottom: 10px;
@@ -280,17 +286,199 @@ span {
   justify-content: space-between;
   padding: 3rem;
 }
-.faq button {
+/* .faq button {
   padding: 10px;
   border-radius: 7px;
   border: none;
-}
-.faq .fa-solid{
+  cursor: pointer;
+} */
+/* .faq .fa-solid{
   background-color: blue;
   color: #fff;
-}
-.faq ul li a{
+} */
+.faq ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 13px;
 }
+.newsletter {
+  padding: 40px;
+  height: 258px;
+  width: 338px;
+  background-color: #6c65f3ee;
+  text-align: start;
+  margin-bottom: 60px;
+}
+.newsletter form {
+  padding: 20px 0px;
+}
+.newsletter p {
+  font-size: small;
+  font-weight: lighter;
+}
+.email-input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.Head {
+  background-color: #5048ef;
+}
+.text1 {
+  align-self: stretch;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  padding-top: 3rem;
+}
+.text2 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  padding-bottom: 6rem;
+}
+.freeTemplate {
+  padding-top: 2rem;
+}
+.freeTemplate h3 {
+  color: #5048ef;
+}
+.digital {
+  margin-left: 8rem;
+  padding-bottom: 10px;
+}
+.freeTemplate button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #f2a95a;
+  border-color: #f2a95a;
+  background-color: #fff;
+}
+.appreciation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 5px;
+}
+.graduation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 5px;
+}
+.participation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  gap: 5px;
+}
+.customize {
+  margin-left: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-family: sans-serif;
+}
+.newImg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+  margin-left: 8rem;
+  padding-right: 4rem;
+}
+.step {
+  /* display: flex;
+  justify-content: space-around;
+  padding-top: 2rem; */
+  display: flex;
+  width: 1214px;
+  height: 462px;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 65px;
+  flex-shrink: 0;
+  margin-left: 7rem;
+}
+.another h2 {
+  align-self: stretch;
+  color: var(--primary-primary, #5048ef);
+  font-family: "Inter Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.another h4 {
+  color: var(--primary-primary, #5048ef);
+  font-family: "Inter Display";
+  font-size: var(--Title-Large-Size, 22px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.another p {
+  width: 584px;
+  color: #717274;
+  font-family: "Inter Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.steper {
+  display: flex;
+  width: 1214px;
+  height: 537px;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 150px;
+  flex-shrink: 0;
+  margin-left: 7rem;
+  background-color: #e1e1e1;
+}
+.optional {
+  margin-left: 8rem;
+}
+.anotherOptional h2 {
+  align-self: stretch;
+  color: var(--primary-primary, #5048ef);
+  font-family: "Inter Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.anotherOptional h4 {
+  color: var(--primary-primary, #5048ef);
+  font-family: "Inter Display";
+  font-size: var(--Title-Large-Size, 22px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.anotherOptional p {
+  color: #717274;
+  font-family: "Inter Display";
+  font-size: var(--Title-Large-Size, 22px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 2rem;
+}
+.loveBtn span{
+  color: #5048EF;
+}
+
+
